@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반스 패밀리 위크 2024</title>
+    <link href="./css/vans.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="./js/script.js"></script>
+     <script src="./js/json.js"></script>
+</head>
+<body>
+    <div class="modal-bg">
+    <div class="modal-wrap">
+        <a href="#"><img src="./img/popup.jpg"></a>
+        <div class="hiddne">
+            <div class="close-container">
+                <span class="close-group">
+                    <input type="checkbox" id="checkClose" name="checkClose">
+                    <label form="checkClose">
+                        <i class="st-icon=checkbox"></i>
+                        <span class="label">하루동안 열지 않기</span>
+                        <i class="icon-delete_thin"></i>
+                    </label>
+
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+    <header>
+       <div class="logo">
+            <img src="./img/vans-logo.svg" alt="로고">
+       </div>   
+
+       <div class="loginboxs">
+        <ul>
+            <li><a href="#">VANS NEWS</a>
+</li>
+            <li><a href="#">장바구니</a></li>
+            <li><a href="#">위시리스트</a></li>
+            <li><a href="./login.html">로그인</a></li>
+            <li><a href="#">매장찾기</a></li>
+            <li><a href="#">고객센터</a></li>
+        </ul>
+       </div>
+
+       <nav>
+           <ul class="navul">
+                <li class="navli"><a href="#" id="toggleLink">NEW /</a></li>
+                                              
+                <li class="navli"><a href="#" id="toggleLink1">MEN /</a></li>
+                <li class="navli"><a href="#" id="toggleLink2">WOMEN /</a></li>
+                <li class="navli"><a href="#" id="toggleLink3">KIDS /</a></li>
+                <li class="navli"><a href="#">PREMIUM /</a></li>
+                <li class="navli"><a href="#" id="toggleLink4">CUSTOMS /</a></li>
+                <li class="navli"><a href="#">SKATEBOARDING /</a></li>
+                <li class="navli"><a href="#" style="color: red;">SALE </a></li>
+                <li class="navli"><a href="#" id="toggleLink5" >/ MORE /</a></li>
+           </ul>
+           <div id="submenu" >
+              <div class="submenus">
+                  <ul class="sub">
+                       <li class="submain"><a href="#">NEW</a></li>
+                       <ul>
+                          <li class="subma"><a href="#">new</a></li>
+                          <li class="subma"><a href="#">신방 신상품</a></li>
+                          <li class="subma"><a href="#">의류 신상품</a></li>
+                          <li class="subma"><a href="#">악세사리 신상품</a></li>
+                          <li class="subma"><a href="#">키즈 신상품</a></li>
+                       </ul> 
+                  </ul>
+                  <ul class="sub">
+                    <li class="submain"><a href="#">COLLECTION</a></li>
+                    <ul>
+                       <li class="subma"><a href="#">Family Week</a></li>
+                       <li class="subma"><a href="#">TDC Collection</a></li>
+                       <li class="subma"><a href="#">The Upland</a></li>
+                       <li class="subma"><a href="#">메리 제인</a></li>
+                       <li class="subma"><a href="#">MTE 어센틱</a></li>
+                       <li class="subma"><a href="#">울트라레인지</a></li>
+                    </ul> 
+               </ul>
+               <ul class="sub">
+                <li class="submain"><a href="#">CUSTOMS</a></li>
+                <ul>
+                   <li class="subma"><a href="#">PINK VIBE</a></li>
+                   <li class="subma"><a href="#">NEW SEASON, NEW SWATCH</a></li>
+                </ul> 
+           </ul>
+                    
+              </div>
+               <div class="submenuimg">
+                   <div class="sublog">
+                      <a href="#"><img src="./img/mobile_nav1.png"></a>
+                      <ul class="subimgs">
+                         <li class="subimg"><a href="#"><img src="./img/mobile_nav2.png"></a></li>
+                         <li class="subimg"><a href="#"><img src="./img/mobile_nav3.png"></a></li>
+                         <li class="subimg"><a href="#"><img src="./img/mobile_nav4.png"></a></li>
+                         <li class="subimg"><a href="#"><img src="./img/mobile_nav5.png"></a></li>
+                         <li class="subimg"><a href="#"><img src="./img/mobile_nav6.png"></a></li>
+                      </ul>
+                   </div>
+               </div>
+              </div>
+              <div id="submenu1" >
+                <div class="submenus1">
+                    <ul class="sub1">
+                         <li class="submain1"><a href="#">신발</a></li>
+                         <ul>
+                            <li class="subma1"><a href="#">전체보기</a></li>
+                            <li class="subma1"><a href="#">코어클래식</a></li>
+                            <li class="subma1"><a href="#">클래식</a></li>
+                            <li class="subma1"><a href="#">스케이트 슈즈</a></li>
+                            <li class="subma1"><a href="#">클래식플러스</a></li>
+                            <li class="subma1"><a href="#">서프</a></li>
+                            <li class="subma1"><a href="#">스노우</a></li>
+                         </ul> 
+                    </ul>
+                    <ul class="sub1">
+                      <li class="submain1"><a href="#">의류</a></li>
+                      <ul>
+                         <li class="subma1"><a href="#">전체보기</a></li>
+                         <li class="subma1"><a href="#">탑 & 티셔츠</a></li>
+                         <li class="subma1"><a href="#">플리스</a></li>
+                         <li class="subma1"><a href="#">아우터</a></li>
+                         <li class="subma1"><a href="#">하의</a></li>
+                      </ul> 
+                 </ul>
+                 <ul class="sub1">
+                  <li class="submain1"><a href="#">액세서리</a></li>
+                  <ul>
+                     <li class="subma1"><a href="#">전체보기</a></li>
+                     <li class="subma1"><a href="#">모자</a></li>
+                     <li class="subma1"><a href="#">가방</a></li>
+                     <li class="subma1"><a href="#">양말</a></li>
+                     <li class="subma1"><a href="#">기타</a></li>
+                  </ul> 
+             </ul>
+             <ul class="sub1">
+                <li class="submain1"><a href="#">WHAT'S HOT</a></li>
+                <ul>
+                   <li class="subma1"><a href="#">베스트 셀러</a></li>
+                   <li class="subma1"><a href="#">뉴 스쿨 & 뉴 슬립</a></li>
+                   <li class="subma1"><a href="#">울트라레인지</a></li>
+                   <li class="subma1"><a href="#">컴피쿠시</a></li>
+                   <li class="subma1"><a href="#">온라인 단독</a></li>
+                   <li class="subma1"><a href="#">컬러 띠어리 컬렉션</a></li>
+                </ul> 
+           </ul>
+                      
+                </div>
+                 <div class="submenuimg1">
+                     <div class="sublog1">
+                        <a href="#"><img src="./img/mobile_nav1.png"></a>
+                        <ul class="subimgs1">
+                           <li class="subimg1"><a href="#"><img src="./img/mobile_nav2.png"></a></li>
+                           <li class="subimg1"><a href="#"><img src="./img/mobile_nav3.png"></a></li>
+                           <li class="subimg1"><a href="#"><img src="./img/mobile_nav4.png"></a></li>
+                           <li class="subimg1"><a href="#"><img src="./img/mobile_nav5.png"></a></li>
+                           <li class="subimg1"><a href="#"><img src="./img/mobile_nav6.png"></a></li>
+                        </ul>
+                     </div>
+                 </div>
+                </div>
+                <div id="submenu2" >
+                    <div class="submenus2">
+                        <ul class="sub2">
+                             <li class="submain2"><a href="#">신발</a></li>
+                             <ul>
+                                <li class="subma2"><a href="#">전체보기</a></li>
+                                <li class="subma2"><a href="#">코어클래식</a></li>
+                                <li class="subma2"><a href="#">클래식</a></li>
+                                <li class="subma2"><a href="#">스케이트 슈즈</a></li>
+                                <li class="subma2"><a href="#">클래식플러스</a></li>
+                                <li class="subma2"><a href="#">서프</a></li>
+                                <li class="subma2"><a href="#">스노우</a></li>
+                             </ul> 
+                        </ul>
+                        <ul class="sub2">
+                          <li class="submain2"><a href="#">의류</a></li>
+                          <ul>
+                             <li class="subma2"><a href="#">전체보기</a></li>
+                             <li class="subma2"><a href="#">탑 & 티셔츠</a></li>
+                             <li class="subma2"><a href="#">플리스</a></li>
+                             <li class="subma2"><a href="#">아우터</a></li>
+                             <li class="subma2"><a href="#">하의</a></li>
+                             <li class="subma2"><a href="#">원피스 & 스커트</a></li>
+                          </ul> 
+                     </ul>
+                     <ul class="sub2">
+                      <li class="submain2"><a href="#">액세서리</a></li>
+                      <ul>
+                         <li class="subma2"><a href="#">전체보기</a></li>
+                         <li class="subma2"><a href="#">모자</a></li>
+                         <li class="subma2"><a href="#">가방</a></li>
+                         <li class="subma2"><a href="#">양말</a></li>
+                         <li class="subma2"><a href="#">기타</a></li>
+                      </ul> 
+                 </ul>
+                 <ul class="sub2">
+                    <li class="submain2"><a href="#">WHAT'S HOT</a></li>
+                    <ul>
+                       <li class="subma2"><a href="#">베스트 셀러</a></li>
+                       <li class="subma2"><a href="#">뉴 스쿨 & 뉴 슬립</a></li>
+                       <li class="subma2"><a href="#">플랫폼</a></li>
+                       <li class="subma2"><a href="#">컴피쿠시</a></li>
+                       <li class="subma2"><a href="#">온라인 단독</a></li>
+                       <li class="subma2"><a href="#">컬러 띠어리 컬렉션</a></li>
+                    </ul> 
+               </ul>
+                          
+                    </div>
+                     <div class="submenuimg2">
+                         <div class="sublog2">
+                            <a href="#"><img src="./img/mobile_nav1.png"></a>
+                            <ul class="subimgs2">
+                               <li class="subimg2"><a href="#"><img src="./img/mobile_nav2.png"></a></li>
+                               <li class="subimg2"><a href="#"><img src="./img/mobile_nav3.png"></a></li>
+                               <li class="subimg2"><a href="#"><img src="./img/mobile_nav4.png"></a></li>
+                               <li class="subimg2"><a href="#"><img src="./img/mobile_nav5.png"></a></li>
+                               <li class="subimg2"><a href="#"><img src="./img/mobile_nav6.png"></a></li>
+                            </ul>
+                         </div>
+                     </div>
+                    </div>
+                    <div id="submenu3" >
+                        <div class="submenus3">
+                            <ul class="sub3">
+                                 <li class="submain3"><a href="#">신발</a></li>
+                                 <ul>
+                                    <li class="subma3"><a href="#">전체보기</a></li>
+                                    <li class="subma3"><a href="#">토들러</a></li>
+                                    <li class="subma3"><a href="#">키즈</a></li>
+                                    <li class="subma3"><a href="#">베스트 셀러</a></li>
+                                 </ul> 
+                            </ul>
+                            <ul class="sub3">
+                              <li class="submain3"><a href="#">의류</a></li>
+                              <ul>
+                                 <li class="subma3"><a href="#">전체보기</a></li>
+                                 <li class="subma3"><a href="#">보이즈 & 걸즈</a></li>
+                                 <li class="subma3"><a href="#">키즈</a></li>
+                              </ul> 
+                         </ul>
+                         <ul class="sub3">
+                          <li class="submain3"><a href="#">액세서리</a></li>
+                          <ul>
+                             <li class="subma3"><a href="#">전체보기</a></li>
+                             <li class="subma3"><a href="#">양말</a></li>
+                             <li class="subma3"><a href="#">모자</a></li>
+                          </ul> 
+                     </ul>
+                     <ul class="sub3">
+                        <li class="submain3"><a href="#"> CUSTOMS</a></li>
+                        <ul>
+                           <li class="subma3"><a href="#">커스텀 하기</a></li>
+                        </ul> 
+                   </ul>
+                              
+                        </div>
+                         <div class="submenuimg3">
+                             <div class="sublog3">
+                                <a href="#"><img src="./img/mobile_nav1.png"></a>
+                                <ul class="subimgs3">
+                                   <li class="subimg3"><a href="#"><img src="./img/mobile_nav2.png"></a></li>
+                                   <li class="subimg3"><a href="#"><img src="./img/mobile_nav3.png"></a></li>
+                                   <li class="subimg3"><a href="#"><img src="./img/mobile_nav4.png"></a></li>
+                                   <li class="subimg3"><a href="#"><img src="./img/mobile_nav5.png"></a></li>
+                                   <li class="subimg3"><a href="#"><img src="./img/mobile_nav6.png"></a></li>
+                                </ul>
+                             </div>
+                         </div>
+                        </div>
+                        <div id="submenu4" >
+                            <div class="submenus4">
+                                <ul class="sub4">
+                                     <li class="submain4"><a href="#">CUSTOMS</a></li>
+                                     <ul>
+                                        <li class="subma4"><a href="#">나만의 신발 만들기</a></li>
+                                        <li class="subma4"><a href="#">어센틱 커스텀</a></li>
+                                        <li class="subma4"><a href="#">슬립온 커스텀</a></li>
+                                        <li class="subma4"><a href="#">올드스쿨 커스텀</a></li>
+                                        <li class="subma4"><a href="#">에라 커스텀</a></li>
+                                        <li class="subma4"><a href="#">스케이트-하이 커스텀</a></li>
+                                     </ul> 
+                                </ul>
+                                <ul class="sub4">
+                                  <li class="submain4"><a href="#">FEATURED</a></li>
+                                  <ul>
+                                     <li class="subma4"><a href="#">PINK VIBE</a></li>
+                                     <li class="subma4"><a href="#">NEW SEASON, NEW SWATCH</a></li>
+                                  </ul> 
+                             </ul>
+                                  
+                            </div>
+                             <div class="submenuimg4">
+                                 <div class="sublog4">
+                                    <a href="#"><img src="./img/mobile_nav1.png"></a>
+                                    <ul class="subimgs4">
+                                       <li class="subimg4"><a href="#"><img src="./img/mobile_nav2.png"></a></li>
+                                       <li class="subimg4"><a href="#"><img src="./img/mobile_nav3.png"></a></li>
+                                       <li class="subimg4"><a href="#"><img src="./img/mobile_nav4.png"></a></li>
+                                       <li class="subimg4"><a href="#"><img src="./img/mobile_nav5.png"></a></li>
+                                       <li class="subimg4"><a href="#"><img src="./img/mobile_nav6.png"></a></li>
+                                    </ul>
+                                 </div>
+                             </div>
+                            </div>   
+                            <div id="submenu5" >
+                                <div class="submenus5">
+                                    <ul class="sub5">
+                                         <li class="submain5"><a href="#">MORE FUN</a></li>
+                                         <ul>
+                                            <li class="subma5"><a href="#">Always Pushing</a></li>
+                                            <li class="subma5"><a href="#">SURF</a></li>
+                                            <li class="subma5"><a href="#">SUSTAINABILITY</a></li>
+                                            <li class="subma5"><a href="#">ABOUT VANS</a></li>
+                                            <li class="subma5"><a href="#">VANS NEWS</a></li>
+                                            <li class="subma5"><a href="#">THIS IS OFF THE WALL</a></li>
+                                         </ul> 
+                                    </ul>
+                                    <ul class="sub5">
+                                      <li class="submain5"><a href="#">SNOW</a></li>
+                                 </ul>
+                                      
+                                </div>
+                                 <div class="submenuimg5">
+                                     <div class="sublog5">
+                                        <a href="#"><img src="./img/mobile_nav1.png"></a>
+                                        <ul class="subimgs5">
+                                           <li class="subimg5"><a href="#"><img src="./img/mobile_nav2.png"></a></li>
+                                           <li class="subimg5"><a href="#"><img src="./img/mobile_nav3.png"></a></li>
+                                           <li class="subimg5"><a href="#"><img src="./img/mobile_nav4.png"></a></li>
+                                           <li class="subimg5"><a href="#"><img src="./img/mobile_nav5.png"></a></li>
+                                           <li class="subimg5"><a href="#"><img src="./img/mobile_nav6.png"></a></li>
+                                        </ul>
+                                     </div>
+                                 </div>
+                                </div> 
+       </nav>
+
+       <input type="text" class="seach-input" value placeholder="Search...">
+    </header>
+    <div id="headerbox">
+        <div class="headerboxwar">
+            <div class="slide-container">
+                <a href="#"><p>첫 구매 1만원 쿠폰증정</p></a>
+                <a href="#"><p>영지와 함께하는 Always Out There, The Upland</p></a>
+                <a href="#"><p>3만원 이상 무료배송</p></a>
+                <a href="#"><p>단 7일! 반스 패밀리 위크</p></a>
+            </div>
+        </div>
+    </div>
+    <div id="slide">
+         <img src="./img/Vans Family .jpg" alt="슬라이더">
+    </div>
+
+    <div id="navigation">
+            <ul class="inner">
+                <li class="active"><a href="#">
+                    VANS<br>
+                    패밀리 혜택
+                </a></li>
+                <li class="active"><a href="#">
+                    일바별 혜택<br>
+                    DAY 2
+                </a></li>
+                <li class="active"><a href="#">
+                    최대 80% OFF<br>
+                    할인상품
+                </a></li>
+                <li class="active"><a href="#">
+                    오프라인<br>
+                    스토어 해택
+                </a></li>
+            </ul>
+    </div>
+    <div class="sede">
+        <img src="./img/title-deco.png">
+        <h1 class="title_wrap">
+            Vans 패밀리 혜택
+            
+        </h1>
+        <p class="p1">
+            패밀리를 위해 7일간 제공되는 
+            <strong>7개의 베네핏!</strong>
+        </p>
+    </div>
+    <section>
+        <h5 class="title-benefit">Benefit 1</h5>
+        <h3 class="title-event">
+            매일 10시에 발행되는 선착순 쿠폰!
+        </h3>
+
+        <div class="copun-warp">
+            <img src="./img/bg-coupon.png">
+        </div>
+        <div class="coupon-close">
+        </div>
+    </section>
+    <div id="section1">
+        <h5 class="title-benefit">Benefit 2</h5>
+        <h3 class="title1">데일리 특가</h3>
+        <p class="title2-eve">매일 10시에 업데이트 되는 <strong>24시간</strong> 특가 상품</p>
+        <div id="productswap">
+            <ul class="swiper">
+               <li class="swiper-ti"><a href="#">
+                   <div class="img-weap">
+                    <img id="imggg">
+                    <span class="pd-title"></span>
+                    <span class="pd-price" style="margin: 50px 0 0 0;"></span>
+                    <div class="price-wrap" style="margin: 120px 0 0 0;">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+            </a></li>
+            <li class="swiper-ti"><a href="#">
+                <div class="img-weap" onmouseover="changeImage1()" onmouseout="resetImage1()">
+                    <img id="imggg1">
+                    <span class="pd-title"></span>
+                    <span class="pd-price"></span>
+                    <div class="price-wrap">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+            </a></li>
+            <li class="swiper-ti"><a href="#">
+                <div class="img-weap" onmouseover="changeImage2()" onmouseout="resetImage2()">
+                    <img id="imggg2">
+                    
+                    <span class="pd-title"></span>
+                    <span class="pd-price"></span>
+                    <div class="price-wrap">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+            </a></li>
+            <li class="swiper-ti"><a href="#">
+                <div class="img-weap" onmouseover="changeImage3()" onmouseout="resetImage3()" >
+                    <img id="imggg3">
+                    <span class="pd-title"></span>
+                    <span class="pd-price" style="margin: 20px 0 0 0;"></span>
+                    <div class="price-wrap" style="margin: 70px 0 0 0;">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+            </a></li>
+            <li class="swiper-ti"><a href="#">
+                <div class="img-weap" onmouseover="changeImage4()" onmouseout="resetImage4()" >
+                    <img id="imggg4">
+                    <span class="pd-title"></span>
+                    <span class="pd-price" style="margin: 20px 0 0 0;"></span>
+                    <div class="price-wrap" style="margin: 70px 0 0 0;">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+            </a></li>
+            <li class="swiper-ti"><a href="#">
+                <div class="img-weap" onmouseover="changeImage5()" onmouseout="resetImage5()" >
+                    <img id="imggg5">
+                    <span class="pd-title"></span>
+                    <span class="pd-price" style="margin: 20px 0 0 0;"></span>
+                    <div class="price-wrap" style="margin: 70px 0 0 0;">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+            </a></li>
+            <li class="swiper-ti"><a href="#">
+                <div class="img-weap" onmouseover="changeImage6()" onmouseout="resetImage6()" >
+                    <img id="imggg6">
+                    <span class="pd-title"></span>
+                    <span class="pd-price" style="margin: 20px 0 0 0;"></span>
+                    <div class="price-wrap" style="margin: 70px 0 0 0;">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+            </a></li>
+            <li class="swiper-ti"><a href="#">
+                <div class="img-weap" onmouseover="changeImage7()" onmouseout="resetImage7()" >
+                    <img id="imggg7">
+                    <span class="pd-title"></span>
+                    <span class="pd-price" style="margin: 20px 0 0 0;"></span>
+                    <div class="price-wrap" style="margin: 70px 0 0 0;">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+            </a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="coupon-wrqp-am">
+        <h5 class="title-benefit">Benefit 3</h5>
+        <h3 class="title1" style="margin: 190px 0 0 -233px;">신규회원 특별 쿠폰 </h3>
+        <p class="subtitle">
+            반스 패리리가 되고<span class="light">20% 쿠폰</span>받으세요<br>
+            카카오톡 알림톡으로 쿠폰 발송
+        </p>
+        <div class="grop">
+            <span class="copun-point">VANS<br> FAMILY WEEK </span>
+            <strong class="copun-sale">20%</strong>
+            <p class="copuu-info">할인쿠폰</p>
+        </div>
+
+        <a class="btn-coun" style="margin: 150px 0 0 430px;">회원 가입 하기</a>
+        ::after
+    </div>
+
+    <div id="inners">
+        <ul class="innerul">
+            <li class="innerli">
+                <h5 class="inner1-benefit">Benefit 4</h5>
+                <h6 class="title-gift">피크닉 매트</h6>
+                <p class="title-text">로그인 후 15만원 이상 구매 시 증정!</p>
+                <div class="relative">
+                    <img src="./img/img-gift01.png">
+                </div>
+            </li>
+            <li class="innerli">
+                <h5 class="inner1-benefit">Benefit 5</h5>
+                <h6 class="title-gift">7일간 무료 배송</h6>
+                <p class="title-text">로그인 후 15만원 이상 구매 시 증정!</p>
+                <div class="relative">
+                    <img src="./img/img-gift02.png">
+                </div>
+            </li>
+            <li class="innerli">
+                <h5 class="inner1-benefit">Benefit 6</h5>
+                <h6 class="title-gift">배송 완료 시<span class="light"> 20% 추가 쿠폰</span> 증정!</h6>
+                <p class="title-text">로그인 후 15만원 이상 구매 시 증정!</p>
+                <div class="relative" style="margin: -30px 0 0 0;">
+                    <img src="./img/img-gift03.png">
+                </div>
+            </li>
+            <li class="innerli">
+                <h5 class="inner1-benefit">Benefit 7</h5>
+                <h6 class="title-gift">리뷰 이벤트</h6>
+                <p class="title-text">로그인 후 15만원 이상 구매 시 증정!</p>
+                <div class="relative" style="margin: 3px 0 0 0;">
+                    <img src="./img/img-gift04.png">
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="marquee">
+      <img src="./img/img-marquee.png">
+    </div>
+
+    <div id="innerboxs">
+        <div class="titlewar">
+            <h1 class="title-section">일자별 혜택</h1>
+            <p><strong>단 7일 동안</strong>,다양한 혜택으로 만나는 추천 아이템!</p>
+        </div>
+
+        <div class="produboxs">
+            <ul class="ulpod">
+                <li class="lipod"><a href="#">
+                     <img class="lipodimg">
+                     <div class="img-info">
+                      <strong>Best of Best Day</strong>                    
+                       <span class="letter-ss"></span>
+                    </div>
+                </a></li>
+                <li class="lipod"><a href="s#">
+                     <img class="lipodimg">
+                     <div class="img-info">
+                        <strong>Pre-Winter Day</strong>                    
+                         <span class="letter-ss"></span>
+                      </div>
+                </a></li>
+                <li class="lipod"><a href="#">
+                    <img src="./img/img-day03.png">
+                    <div class="img-info"  style="margin: -27px 0 0 0;">
+                        <strong>Newness Day</strong>                    
+                         <span class="letter-ss"></span>
+                      </div>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="marquee">
+        <img src="./img/img-marquee.png">
+      </div>
+
+      <div id="section2">
+          <div class="inner-sm">
+            <div class="title-war">
+                <h1 class="title-se">최대 80% OFF 상품</h1>
+                <p class="p2" style="margin: 0 0 0 -10px;">7일 동안의 구매 혜택! </p>
+            </div>
+            <div class="bt-box">
+                <ul class="tab-title">
+                    <li class="active">ALL</li>
+                    <li class="active1">신발</li>
+                    <li class="active1">의류</li>
+                    <li class="active1">악세사리</li>
+                </ul>
+                <div class="item-boxs">
+                   <div class="item-box">
+                        <img class="item-boximg" src="./img/primary.jpg">
+                        <span class="pd-title"></span>
+                        <span class="pd-price"></span>
+                        <div class="price-wrap" style="margin: 60px 0 0 0;">
+                            <span class="pd-sale"></span>
+                            <span class="pd-per"></span>
+                        </div>
+                   </div>
+                   <div class="item-box">
+                    <img class="item-boximg">
+                    <span class="pd-title"></span>
+                    <span class="pd-price"></span>
+                    <div class="price-wrap" style="margin: 60px 0 0 0;">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+                   <div class="item-box">
+                    <img class="item-boximg">
+                    <span class="pd-title"></span>
+                    <span class="pd-price"></span>
+                    <div class="price-wrap" style="margin: 60px 0 0 0;">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+                   <div class="item-box">
+                    <img class="item-boximg">
+                    <span class="pd-title"></span>
+                    <span class="pd-price"></span>
+                    <div class="price-wrap" style="margin: 60px 0 0 0;">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+                   <div class="item-box">
+                    <img class="item-boximg">
+                    <span class="pd-title"></span>
+                    <span class="pd-price"></span>
+                    <div class="price-wrap" style="margin: 60px 0 0 0;">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+                   <div class="item-box">
+                    <img class="item-boximg">
+                    <span class="pd-title"></span>
+                    <span class="pd-price"></span>
+                    <div class="price-wrap" style="margin: 60px 0 0 0;">
+                        <span class="pd-sale"></span>
+                        <span class="pd-per"></span>
+                    </div>
+                   </div>
+                   <a class="btn-coun" style="margin: 0 0 0 380px;">전체 상품 보기</a>
+                </div>
+          </div>
+      </div>
+      </div>
+      <div id="marquee" >
+        <img src="./img/img-marquee.png">
+      </div>
+      <div id="section4">
+        <div class="title-war">
+            <h1 class="title-se">오프라인 스토어 혜택</h1>
+            <p class="p2" style="margin: 0 0 0 -10px;">온/오프 사용 가능한 할인 코드</p>
+        </div>
+        <div class="img-boz">
+            <div class="imgbox">
+                 <img class="imgboximg" >
+            </div>
+            <div class="imgbox">
+                  <img class="imgboximg"  style="width: 100%; height: 300px;">
+            </div>
+            <a class="btn-coun1">진행매장 확인하기</a>
+        </div>
+      </div>
+      <div id="logbox">
+        <img src="./img/bg-logo.png">
+      </div>
+      <footer>
+    
+        <dl>
+            <dt>ABOUT</dt>
+            <dd>반스에 대하여</dd>
+            <dd>고객센터</dd>
+        </dl>
+        <dl>
+            <dt>SHOPPING</dt>
+            <dd>회원가입</dd>
+            <dd>주문/배송 조회</dd>
+        </dl>
+        <dl>
+            <dt>LEGAL</dt>
+            <dd>이용약관</dd>
+            <dd>개인정보처리방침</dd>
+            <dd>청소년 보호정책</dd>
+        </dl>
+        
+         <div class="footertext">
+            <dl>
+                <dt>FOLLOW VANS</dt>
+            </dl>
+            <ul class="footerul">
+                <li class="footerli"><a href="#">
+                    <img src="./img/fas.png">
+                </a></li>
+                <li class="footerli"><a href="#">
+                    <img src="./img/ins.png">
+                </a></li>
+                <li class="footerli"><a href="#">
+                    <img src="./img/poin.png">
+                </a></li>
+                <li class="footerli"><a href="#">
+                    <img src="./img/nav.png">
+                </a></li>
+            </ula>
+         </div>
+
+         <div class="footerlogo">
+             <img src="./img/footerlogo.png">
+         </div>
+         <div class="footertext2">
+            <span style="font-size: 12px; color: #7e7e7e;">유한책임회사 브이에프코리아 | 대표 SANUSI SYLVANI 등록번호 220-88-43561 | 통신판매업신고번호 2013-서울강남-02918호<strong style="color: white; font-size: 12px;">사업자정보확인</strong></span><br>
+            <span style="font-size: 12px; color: #7e7e7e;">서울특별시 강남구 테헤란로 317 동훈타워 18층 | 개인정보 책임자 이보람 |<strong style="color: white;"> 고객센터(평일 09:00 ~ 18:00) 1522-1882</strong> | 이메일 <strong style="color: white;">Vanskr_online@vfc.com</strong></span><br><br>
+             <span style="font-style: 12px; color: #7e7e7e;">ⓒ유한책임회사 브이에프코리아. All Rights Reserved. California Transparency in Supply Chain Act of 2010</span>
+        </div>
+
+        <div class="footertext3">
+            <span style="font-size: 12px; color: #7e7e7e;">소비자피해 보증보험 <strong style="font-size: 12px; color: white;">가입확인</strong></span><br><br>
+            <span style="font-size: 12px; color: #7e7e7e;">안전거래를 위해 현금 거래에 대해<br>
+                구매안전서비스를 적용하고 있습니다.</span>
+        </div>
+      </footer>
+</body>
+
+
+</html>
