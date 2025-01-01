@@ -9,7 +9,7 @@
 - 개발 기간: 24/10/14 ~ 24/10/16
 
 ## 기술스텍
-Tool : Visual Studio 
+Tool : `Visual Studio` 
 
 ## 실행화면
 <img src="https://github.com/user-attachments/assets/2b2d5d68-75bc-4ad9-be72-1b7fd5b42f7f" width="800" height="500">
